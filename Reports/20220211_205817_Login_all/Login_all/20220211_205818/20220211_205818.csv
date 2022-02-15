@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_all,Chrome 98.0.4758.82,,,2022-02-11 20:58:32,2022-02-11 20:59:39,1m - 7.254s,PASSED
+,,,,,,,
+Test Cases/Login_TestCase/Success Login,Chrome 98.0.4758.82,,,2022-02-11 20:58:32,2022-02-11 20:58:53,20.683s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:58:33,2022-02-11 20:58:37,4.389s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 20:58:37,2022-02-11 20:58:47,10.005s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Email Address_email""), ""ganjar.sayogo@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:58:47,2022-02-11 20:58:48,1.068s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_QlueDashboard/input_Password_password""), ""v6+BrTLuxzQDl26QyXP8dQ=="")",Chrome 98.0.4758.82,,,2022-02-11 20:58:48,2022-02-11 20:58:49,0.905s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 20:58:49,2022-02-11 20:58:50,0.638s,PASSED
+"verifyElementPresent(findTestObject(""Page_QlueDashboard/h3_Welcome To Qlue Dashboard""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:58:50,2022-02-11 20:58:52,1.962s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:58:52,2022-02-11 20:58:53,0.873s,PASSED
+,,,,,,,
+Test Cases/Login_TestCase/Failed login_Email not registered,Chrome 98.0.4758.82,,,2022-02-11 20:58:53,2022-02-11 20:59:05,12.225s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:58:54,2022-02-11 20:58:55,1.595s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 20:58:55,2022-02-11 20:59:01,5.561s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Email Address_email""), ""ganjarosayogo@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:59:01,2022-02-11 20:59:02,0.968s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Password_password""), ""ganjar123"")",Chrome 98.0.4758.82,,,2022-02-11 20:59:02,2022-02-11 20:59:03,0.900s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 20:59:03,2022-02-11 20:59:04,0.921s,PASSED
+"verifyElementPresent(findTestObject(""Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/div_Email or phone is not registered""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:59:04,2022-02-11 20:59:04,0.640s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:59:04,2022-02-11 20:59:05,0.884s,PASSED
+,,,,,,,
+Test Cases/Login_TestCase/Failed login_Password turned uppercase,Chrome 98.0.4758.82,,,2022-02-11 20:59:05,2022-02-11 20:59:17,11.974s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:59:06,2022-02-11 20:59:07,1.623s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 20:59:07,2022-02-11 20:59:13,5.304s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Email Address_email""), ""ganjar.sayogo@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:59:13,2022-02-11 20:59:14,0.912s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Password_password""), ""GANJAR123"")",Chrome 98.0.4758.82,,,2022-02-11 20:59:14,2022-02-11 20:59:14,0.853s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 20:59:14,2022-02-11 20:59:15,0.826s,PASSED
+"verifyElementPresent(findTestObject(""Page_QlueDashboard/Page_QlueDashboard/div_Wrong password""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:59:15,2022-02-11 20:59:16,0.986s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:59:16,2022-02-11 20:59:17,0.797s,PASSED
+,,,,,,,
+Test Cases/Login_TestCase/Failed login_Password with added spaces,Chrome 98.0.4758.82,,,2022-02-11 20:59:17,2022-02-11 20:59:28,11.130s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:59:18,2022-02-11 20:59:19,1.638s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 20:59:19,2022-02-11 20:59:24,4.624s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Email Address_email""), ""ganjar.sayogo@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:59:24,2022-02-11 20:59:25,0.918s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Password_password""), ""ganjar123 "")",Chrome 98.0.4758.82,,,2022-02-11 20:59:25,2022-02-11 20:59:26,0.800s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 20:59:26,2022-02-11 20:59:27,0.816s,PASSED
+"verifyElementPresent(findTestObject(""Page_QlueDashboard/Page_QlueDashboard/div_Wrong password""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:59:27,2022-02-11 20:59:27,0.817s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:59:27,2022-02-11 20:59:28,0.841s,PASSED
+,,,,,,,
+Test Cases/Login_TestCase/Failed login_Password with symbols,Chrome 98.0.4758.82,,,2022-02-11 20:59:28,2022-02-11 20:59:39,10.602s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:59:29,2022-02-11 20:59:30,1.559s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 20:59:30,2022-02-11 20:59:35,4.076s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Email Address_email""), ""ganjar.sayogo@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:59:35,2022-02-11 20:59:36,0.955s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Password_password""), ""ganj@r123"")",Chrome 98.0.4758.82,,,2022-02-11 20:59:36,2022-02-11 20:59:36,0.816s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 20:59:36,2022-02-11 20:59:37,0.505s,PASSED
+"verifyElementPresent(findTestObject(""Page_QlueDashboard/Page_QlueDashboard/div_Wrong password""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:59:37,2022-02-11 20:59:38,1.075s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:59:38,2022-02-11 20:59:39,0.845s,PASSED

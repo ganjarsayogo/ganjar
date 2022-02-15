@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_all" time="67.254" tests="5" failures="0" errors="0">
+   <testsuite name="Login_all" tests="5" failures="0" errors="0" time="67.254" skipped="0" timestamp="2022-02-11 20:58:32" hostname="user - DESKTOP-HVUGG9G" id="Test Suites/Login_all">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\My First Web UI Project\\Reports\\20220211_205817\\Login_all\\20220211_205818"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\My First Web UI Project\\Reports\\20220211_205817\\Login_all\\20220211_205818\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - DESKTOP-HVUGG9G"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.43.53"/>
+         <property name="sessionId" value="bbfefb967d517e61858b91a2f86f5061"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_TestCase/Success Login" time="20.683" classname="Test Cases/Login_TestCase/Success Login" status="PASSED">
+         <system-out><![CDATA[2022-02-11 20:58:32 - [TEST_CASE][PASSED] - Test Cases/Login_TestCase/Success Login: Test Cases/Login_TestCase/Success Login
+
+2022-02-11 20:58:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 20:58:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 20:58:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 20:58:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 20:58:37 - [TEST_STEP][PASSED] - navigateToUrl("https://dashboard-dev.qlue.ai/login?email=&redirect_to="): Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:58:47 - [MESSAGE][PASSED] - Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:58:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QlueDashboard/input_Email Address_email"), "ganjar.sayogo@gmail.com"): Text 'ganjar.sayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:58:48 - [MESSAGE][PASSED] - Text 'ganjar.sayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:58:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_QlueDashboard/input_Password_password"), "v6+BrTLuxzQDl26QyXP8dQ=="): Text ****** has been set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:58:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:58:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QlueDashboard/button_Log in")): Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:58:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_QlueDashboard/h3_Welcome To Qlue Dashboard"), 0): Object 'Object Repository/Page_QlueDashboard/h3_Welcome To Qlue Dashboard' is present
+
+2022-02-11 20:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 20:58:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QlueDashboard/h3_Welcome To Qlue Dashboard' is present
+
+2022-02-11 20:58:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 20:58:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCase/Failed login_Email not registered" time="12.225" classname="Test Cases/Login_TestCase/Failed login_Email not registered" status="PASSED">
+         <system-out><![CDATA[2022-02-11 20:58:53 - [TEST_CASE][PASSED] - Test Cases/Login_TestCase/Failed login_Email not registered: Test Cases/Login_TestCase/Failed login_Email not registered
+
+2022-02-11 20:58:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 20:58:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 20:58:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 20:58:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 20:58:55 - [TEST_STEP][PASSED] - navigateToUrl("https://dashboard-dev.qlue.ai/login?email=&redirect_to="): Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:59:01 - [MESSAGE][PASSED] - Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:59:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QlueDashboard/input_Email Address_email"), "ganjarosayogo@gmail.com"): Text 'ganjarosayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:59:02 - [MESSAGE][PASSED] - Text 'ganjarosayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:59:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QlueDashboard/input_Password_password"), "ganjar123"): Text 'ganjar123' is set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:59:03 - [MESSAGE][PASSED] - Text 'ganjar123' is set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QlueDashboard/button_Log in")): Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:59:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/div_Email or phone is not registered"), 0): Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/div_Email or phone is not registered' is present
+
+2022-02-11 20:59:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 20:59:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/div_Email or phone is not registered' is present
+
+2022-02-11 20:59:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 20:59:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCase/Failed login_Password turned uppercase" time="11.974" classname="Test Cases/Login_TestCase/Failed login_Password turned uppercase" status="PASSED">
+         <system-out><![CDATA[2022-02-11 20:59:05 - [TEST_CASE][PASSED] - Test Cases/Login_TestCase/Failed login_Password turned uppercase: Test Cases/Login_TestCase/Failed login_Password turned uppercase
+
+2022-02-11 20:59:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 20:59:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 20:59:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 20:59:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 20:59:07 - [TEST_STEP][PASSED] - navigateToUrl("https://dashboard-dev.qlue.ai/login?email=&redirect_to="): Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:59:13 - [MESSAGE][PASSED] - Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:59:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QlueDashboard/input_Email Address_email"), "ganjar.sayogo@gmail.com"): Text 'ganjar.sayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:59:14 - [MESSAGE][PASSED] - Text 'ganjar.sayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:59:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QlueDashboard/input_Password_password"), "GANJAR123"): Text 'GANJAR123' is set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:59:14 - [MESSAGE][PASSED] - Text 'GANJAR123' is set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:59:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QlueDashboard/button_Log in")): Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:59:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_QlueDashboard/Page_QlueDashboard/div_Wrong password"), 0): Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/div_Wrong password' is present
+
+2022-02-11 20:59:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 20:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/div_Wrong password' is present
+
+2022-02-11 20:59:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 20:59:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCase/Failed login_Password with added spaces" time="11.13" classname="Test Cases/Login_TestCase/Failed login_Password with added spaces" status="PASSED">
+         <system-out><![CDATA[2022-02-11 20:59:17 - [TEST_CASE][PASSED] - Test Cases/Login_TestCase/Failed login_Password with added spaces: Test Cases/Login_TestCase/Failed login_Password with added spaces
+
+2022-02-11 20:59:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 20:59:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 20:59:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 20:59:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 20:59:19 - [TEST_STEP][PASSED] - navigateToUrl("https://dashboard-dev.qlue.ai/login?email=&redirect_to="): Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:59:24 - [MESSAGE][PASSED] - Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:59:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QlueDashboard/input_Email Address_email"), "ganjar.sayogo@gmail.com"): Text 'ganjar.sayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:59:25 - [MESSAGE][PASSED] - Text 'ganjar.sayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:59:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QlueDashboard/input_Password_password"), "ganjar123 "): Text 'ganjar123 ' is set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:59:26 - [MESSAGE][PASSED] - Text 'ganjar123 ' is set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:59:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QlueDashboard/button_Log in")): Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:59:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_QlueDashboard/Page_QlueDashboard/div_Wrong password"), 0): Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/div_Wrong password' is present
+
+2022-02-11 20:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 20:59:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/div_Wrong password' is present
+
+2022-02-11 20:59:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 20:59:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCase/Failed login_Password with symbols" time="10.602" classname="Test Cases/Login_TestCase/Failed login_Password with symbols" status="PASSED">
+         <system-out><![CDATA[2022-02-11 20:59:28 - [TEST_CASE][PASSED] - Test Cases/Login_TestCase/Failed login_Password with symbols: Test Cases/Login_TestCase/Failed login_Password with symbols
+
+2022-02-11 20:59:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 20:59:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 20:59:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 20:59:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 20:59:30 - [TEST_STEP][PASSED] - navigateToUrl("https://dashboard-dev.qlue.ai/login?email=&redirect_to="): Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:59:35 - [MESSAGE][PASSED] - Navigate to 'https://dashboard-dev.qlue.ai/login?email=&redirect_to=' successfully
+
+2022-02-11 20:59:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QlueDashboard/input_Email Address_email"), "ganjar.sayogo@gmail.com"): Text 'ganjar.sayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:59:36 - [MESSAGE][PASSED] - Text 'ganjar.sayogo@gmail.com' is set on object 'Object Repository/Page_QlueDashboard/input_Email Address_email'
+
+2022-02-11 20:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QlueDashboard/input_Password_password"), "ganj@r123"): Text 'ganj@r123' is set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:59:36 - [MESSAGE][PASSED] - Text 'ganj@r123' is set on object 'Object Repository/Page_QlueDashboard/input_Password_password'
+
+2022-02-11 20:59:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QlueDashboard/button_Log in")): Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QlueDashboard/button_Log in' is clicked on
+
+2022-02-11 20:59:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_QlueDashboard/Page_QlueDashboard/div_Wrong password"), 0): Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/div_Wrong password' is present
+
+2022-02-11 20:59:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 20:59:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/div_Wrong password' is present
+
+2022-02-11 20:59:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 20:59:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 20:58:32 - [TEST_SUITE][PASSED] - Login_all: Test Cases/Login_TestCase/Failed login_Password with symbols]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

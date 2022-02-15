@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_manual,Chrome 98.0.4758.82,,,2022-02-11 21:28:03,2022-02-11 21:32:11,4m - 8.232s,FAILED
+,,,,,,,
+Test Cases/Login_Manual/Failed login_Email and password left blank,Chrome 98.0.4758.82,,,2022-02-11 21:28:03,2022-02-11 21:28:20,16.920s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 21:28:04,2022-02-11 21:28:09,4.878s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 21:28:09,2022-02-11 21:28:14,4.973s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 21:28:14,2022-02-11 21:28:15,0.957s,PASSED
+delay(2),Chrome 98.0.4758.82,,,2022-02-11 21:28:15,2022-02-11 21:28:17,2.190s,PASSED
+takeFullPageScreenshot(),Chrome 98.0.4758.82,,,2022-02-11 21:28:17,2022-02-11 21:28:19,2.020s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 21:28:19,2022-02-11 21:28:20,0.981s,PASSED
+,,,,,,,
+Test Cases/Login_Manual/Failed login_Email field filled with phone number,Chrome 98.0.4758.82,,,2022-02-11 21:28:20,2022-02-11 21:28:36,15.622s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 21:28:21,2022-02-11 21:28:23,1.763s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 21:28:23,2022-02-11 21:28:29,5.450s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Email Address_email""), ""081345755941"")",Chrome 98.0.4758.82,,,2022-02-11 21:28:29,2022-02-11 21:28:30,1.313s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_QlueDashboard/input_Password_password""), ""v6+BrTLuxzQDl26QyXP8dQ=="")",Chrome 98.0.4758.82,,,2022-02-11 21:28:30,2022-02-11 21:28:31,0.703s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 21:28:31,2022-02-11 21:28:32,0.855s,PASSED
+delay(2),Chrome 98.0.4758.82,,,2022-02-11 21:28:32,2022-02-11 21:28:34,2.016s,PASSED
+takeFullPageScreenshot(),Chrome 98.0.4758.82,,,2022-02-11 21:28:34,2022-02-11 21:28:35,1.531s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 21:28:35,2022-02-11 21:28:36,0.967s,PASSED
+,,,,,,,
+Test Cases/Login_Manual/Failed login_Email left blank,Chrome 98.0.4758.82,,,2022-02-11 21:28:36,2022-02-11 21:28:49,12.682s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 21:28:37,2022-02-11 21:28:39,1.836s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 21:28:39,2022-02-11 21:28:43,4.075s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_QlueDashboard/input_Password_password""), ""v6+BrTLuxzQDl26QyXP8dQ=="")",Chrome 98.0.4758.82,,,2022-02-11 21:28:43,2022-02-11 21:28:44,0.842s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 21:28:44,2022-02-11 21:28:44,0.758s,PASSED
+delay(2),Chrome 98.0.4758.82,,,2022-02-11 21:28:44,2022-02-11 21:28:46,2.007s,PASSED
+takeFullPageScreenshot(),Chrome 98.0.4758.82,,,2022-02-11 21:28:46,2022-02-11 21:28:48,1.505s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 21:28:48,2022-02-11 21:28:49,0.873s,PASSED
+,,,,,,,
+Test Cases/Login_Manual/Failed login_Password left blank,Chrome 98.0.4758.82,,,2022-02-11 21:28:49,2022-02-11 21:29:03,13.768s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 21:28:50,2022-02-11 21:28:51,1.760s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 21:28:51,2022-02-11 21:28:56,4.536s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Email Address_email""), ""ganjar.sayogo@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 21:28:56,2022-02-11 21:28:57,1.405s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 21:28:57,2022-02-11 21:28:58,0.865s,PASSED
+delay(2),Chrome 98.0.4758.82,,,2022-02-11 21:28:58,2022-02-11 21:29:00,2.008s,PASSED
+takeFullPageScreenshot(),Chrome 98.0.4758.82,,,2022-02-11 21:29:00,2022-02-11 21:29:02,1.431s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 21:29:02,2022-02-11 21:29:03,0.871s,PASSED
+,,,,,,,
+Test Cases/Login_Manual/Failed login_Added space in last sentence of email,Chrome 98.0.4758.82,,,2022-02-11 21:31:25,2022-02-11 21:32:11,46.211s,FAILED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 21:31:25,2022-02-11 21:31:27,2.605s,PASSED
+"navigateToUrl(""https://dashboard-dev.qlue.ai/login?email=&redirect_to="")",Chrome 98.0.4758.82,,,2022-02-11 21:31:27,2022-02-11 21:31:32,4.989s,PASSED
+"setText(findTestObject(""Object Repository/Page_QlueDashboard/input_Email Address_email""), ""ganjar.sayogo@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 21:31:32,2022-02-11 21:31:34,1.335s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_QlueDashboard/input_Password_password""), ""v6+BrTLuxzQDl26QyXP8dQ=="")",Chrome 98.0.4758.82,,,2022-02-11 21:31:34,2022-02-11 21:31:34,0.634s,PASSED
+delay(0),Chrome 98.0.4758.82,,,2022-02-11 21:31:34,2022-02-11 21:31:34,0.000s,PASSED
+takeFullPageScreenshot(),Chrome 98.0.4758.82,,,2022-02-11 21:31:34,2022-02-11 21:31:36,1.395s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/button_Log in""))",Chrome 98.0.4758.82,,,2022-02-11 21:31:36,2022-02-11 21:31:37,0.727s,PASSED
+delay(2),Chrome 98.0.4758.82,,,2022-02-11 21:31:37,2022-02-11 21:31:39,2.016s,PASSED
+takeFullPageScreenshot(),Chrome 98.0.4758.82,,,2022-02-11 21:31:39,2022-02-11 21:31:39,0.823s,PASSED
+"verifyElementPresent(findTestObject(""Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/div_Email or phone is not registered""), 0)",Chrome 98.0.4758.82,,,2022-02-11 21:31:39,2022-02-11 21:32:11,31.656s,FAILED

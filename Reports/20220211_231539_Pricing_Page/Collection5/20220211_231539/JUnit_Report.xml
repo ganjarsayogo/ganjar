@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Collection5" time="240.99" tests="5" failures="0" errors="0">
+   <testsuite name="Pricing_Page" tests="5" failures="0" errors="0" time="227.021" skipped="0" timestamp="2022-02-11 23:15:53" hostname="user - DESKTOP-HVUGG9G" id="Test Suites/Pricing_Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\My First Web UI Project\\Reports\\20220211_231539\\Pricing_Page\\20220211_231541"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\My First Web UI Project\\Reports\\20220211_231539\\Pricing_Page\\20220211_231541\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - DESKTOP-HVUGG9G"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.43.53"/>
+         <property name="sessionId" value="c3b7216d40c53b0e5460ff74f1d153ce"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pricing/show_Office Space" time="13.977" classname="Test Cases/Pricing/show_Office Space" status="PASSED">
+         <system-out><![CDATA[2022-02-11 23:15:53 - [TEST_CASE][PASSED] - Test Cases/Pricing/show_Office Space: Test Cases/Pricing/show_Office Space
+
+2022-02-11 23:15:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 23:15:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 23:15:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 23:15:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 23:15:59 - [TEST_STEP][PASSED] - navigateToUrl("https://d11602ph6cbhrk.cloudfront.net/pricing/"): Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing/' successfully
+
+2022-02-11 23:16:01 - [MESSAGE][PASSED] - Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing/' successfully
+
+2022-02-11 23:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED (1)")): Object: 'Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED (1)' is clicked on
+
+2022-02-11 23:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED (1)' is clicked on
+
+2022-02-11 23:16:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Qlue Smart City  Cart/p_Office Space (1)"), 0): Object 'Object Repository/Page_Qlue Smart City  Cart/p_Office Space (1)' is present
+
+2022-02-11 23:16:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:16:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Cart/p_Office Space (1)' is present
+
+2022-02-11 23:16:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 23:16:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pricing/show_Office Space_Not Sample and Custom" time="10.65" classname="Test Cases/Pricing/show_Office Space_Not Sample and Custom" status="PASSED">
+         <system-out><![CDATA[2022-02-11 23:16:07 - [TEST_CASE][PASSED] - Test Cases/Pricing/show_Office Space_Not Sample and Custom: Test Cases/Pricing/show_Office Space_Not Sample and Custom
+
+2022-02-11 23:16:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 23:16:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 23:16:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 23:16:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 23:16:10 - [TEST_STEP][PASSED] - navigateToUrl("https://d11602ph6cbhrk.cloudfront.net/pricing/"): Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing/' successfully
+
+2022-02-11 23:16:11 - [MESSAGE][PASSED] - Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing/' successfully
+
+2022-02-11 23:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED (3)")): Object: 'Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED (3)' is clicked on
+
+2022-02-11 23:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED (3)' is clicked on
+
+2022-02-11 23:16:15 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Qlue Smart City  Cart/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (1)"), 0): Web element with id: 'Object Repository/Page_Qlue Smart City  Cart/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (1)' located by 'By.xpath: //input[@value='Sample Plan']' is not present after '30' second(s)
+
+2022-02-11 23:16:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:16:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Qlue Smart City  Cart/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (1)' located by 'By.xpath: //input[@value='Sample Plan']' is not present after '30' second(s)
+
+2022-02-11 23:16:16 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Qlue Smart City  Cart/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (2)"), 0): Web element with id: 'Object Repository/Page_Qlue Smart City  Cart/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (2)' located by 'By.xpath: //input[@value='Custom Plan']' is not present after '30' second(s)
+
+2022-02-11 23:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:16:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Qlue Smart City  Cart/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (2)' located by 'By.xpath: //input[@value='Custom Plan']' is not present after '30' second(s)
+
+2022-02-11 23:16:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 23:16:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pricing/show_Sample Plan" time="10.26" classname="Test Cases/Pricing/show_Sample Plan" status="PASSED">
+         <system-out><![CDATA[2022-02-11 23:16:18 - [TEST_CASE][PASSED] - Test Cases/Pricing/show_Sample Plan: Test Cases/Pricing/show_Sample Plan
+
+2022-02-11 23:16:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 23:16:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 23:16:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 23:16:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 23:16:21 - [TEST_STEP][PASSED] - navigateToUrl("https://d11602ph6cbhrk.cloudfront.net/pricing/"): Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing/' successfully
+
+2022-02-11 23:16:22 - [MESSAGE][PASSED] - Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing/' successfully
+
+2022-02-11 23:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/sample plan/button_GET STARTED")): Object: 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/sample plan/button_GET STARTED' is clicked on
+
+2022-02-11 23:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/sample plan/button_GET STARTED' is clicked on
+
+2022-02-11 23:16:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/sample plan/p_Sample Plan"), 0): Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/sample plan/p_Sample Plan' is present
+
+2022-02-11 23:16:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:16:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/sample plan/p_Sample Plan' is present
+
+2022-02-11 23:16:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 23:16:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pricing/show_Sample Plan_Not Office Space and Custom" time="10.565" classname="Test Cases/Pricing/show_Sample Plan_Not Office Space and Custom" status="PASSED">
+         <system-out><![CDATA[2022-02-11 23:16:28 - [TEST_CASE][PASSED] - Test Cases/Pricing/show_Sample Plan_Not Office Space and Custom: Test Cases/Pricing/show_Sample Plan_Not Office Space and Custom
+
+2022-02-11 23:16:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 23:16:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 23:16:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 23:16:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 23:16:31 - [TEST_STEP][PASSED] - navigateToUrl("https://d11602ph6cbhrk.cloudfront.net/pricing/"): Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing/' successfully
+
+2022-02-11 23:16:32 - [MESSAGE][PASSED] - Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing/' successfully
+
+2022-02-11 23:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_GET STARTED")): Object: 'Object Repository/button_GET STARTED' is clicked on
+
+2022-02-11 23:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/button_GET STARTED' is clicked on
+
+2022-02-11 23:16:36 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy"), 0): Web element with id: 'Object Repository/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy' located by 'By.xpath: //input[@value='Office Space']' is not present after '30' second(s)
+
+2022-02-11 23:16:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:16:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy' located by 'By.xpath: //input[@value='Office Space']' is not present after '30' second(s)
+
+2022-02-11 23:16:37 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (2)"), 0): Web element with id: 'Object Repository/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (2)' located by 'By.xpath: //input[@value='Custom Plan']' is not present after '30' second(s)
+
+2022-02-11 23:16:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:16:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (2)' located by 'By.xpath: //input[@value='Custom Plan']' is not present after '30' second(s)
+
+2022-02-11 23:16:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 23:16:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pricing/show_Custom" time="180.933" classname="Test Cases/Pricing/show_Custom" status="PASSED">
+         <system-out><![CDATA[2022-02-11 23:16:39 - [TEST_CASE][PASSED] - Test Cases/Pricing/show_Custom: Test Cases/Pricing/show_Custom
+
+2022-02-11 23:16:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 23:16:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 23:16:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 23:16:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 23:16:41 - [TEST_STEP][PASSED] - navigateToUrl("https://d11602ph6cbhrk.cloudfront.net/pricing"): Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing' successfully
+
+2022-02-11 23:16:43 - [MESSAGE][PASSED] - Navigate to 'https://d11602ph6cbhrk.cloudfront.net/pricing' successfully
+
+2022-02-11 23:16:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED")): Object: 'Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED' is clicked on
+
+2022-02-11 23:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED' is clicked on
+
+2022-02-11 23:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/button_ADD")): Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD' is clicked on
+
+2022-02-11 23:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD' is clicked on
+
+2022-02-11 23:16:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Cart/p_Custom Plan"), 0): Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:16:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:16:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/path")): Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:17:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 23:17:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Qlue Smart City  Cart/path'. Try using Self-healing.
+
+2022-02-11 23:17:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Qlue Smart City  Cart/path' was broken. Propose an alternative one: 'div.styles__WrapperTrashIcon-sc-2i042w-12.dWuEzd > svg > path'.
+
+2022-02-11 23:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:17:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/button_ADD_1")): Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1' is clicked on
+
+2022-02-11 23:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1' is clicked on
+
+2022-02-11 23:17:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Cart/p_Custom Plan"), 0): Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:17:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/path")): Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:17:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 23:17:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Qlue Smart City  Cart/path'. Try using Self-healing.
+
+2022-02-11 23:17:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Qlue Smart City  Cart/path' was broken. Propose an alternative one: 'div.styles__WrapperTrashIcon-sc-2i042w-12.dWuEzd > svg > path'.
+
+2022-02-11 23:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2")): Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2' is clicked on
+
+2022-02-11 23:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2' is clicked on
+
+2022-02-11 23:17:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Cart/p_Custom Plan"), 0): Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:17:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/svg")): Object: 'Object Repository/Page_Qlue Smart City  Cart/svg' is clicked on
+
+2022-02-11 23:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/svg' is clicked on
+
+2022-02-11 23:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3")): Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3' is clicked on
+
+2022-02-11 23:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3' is clicked on
+
+2022-02-11 23:17:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Cart/p_Custom Plan"), 0): Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:17:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:17:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/path")): Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:18:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 23:18:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Qlue Smart City  Cart/path'. Try using Self-healing.
+
+2022-02-11 23:18:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Qlue Smart City  Cart/path' was broken. Propose an alternative one: 'div.styles__WrapperTrashIcon-sc-2i042w-12.dWuEzd > svg > path'.
+
+2022-02-11 23:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4")): Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4' is clicked on
+
+2022-02-11 23:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4' is clicked on
+
+2022-02-11 23:18:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Cart/p_Custom Plan"), 0): Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:18:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:18:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:18:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/path")): Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:19:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 23:19:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Qlue Smart City  Cart/path'. Try using Self-healing.
+
+2022-02-11 23:19:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Qlue Smart City  Cart/path' was broken. Propose an alternative one: 'div.styles__WrapperTrashIcon-sc-2i042w-12.dWuEzd > svg > path'.
+
+2022-02-11 23:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:19:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5")): Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5' is clicked on
+
+2022-02-11 23:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5' is clicked on
+
+2022-02-11 23:19:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Cart/p_Custom Plan"), 0): Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:19:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:19:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/svg")): Object: 'Object Repository/Page_Qlue Smart City  Cart/svg' is clicked on
+
+2022-02-11 23:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/svg' is clicked on
+
+2022-02-11 23:19:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5_6")): Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5_6' is clicked on
+
+2022-02-11 23:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5_6' is clicked on
+
+2022-02-11 23:19:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Cart/p_Custom Plan"), 0): Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:19:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:19:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/path")): Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:19:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 23:19:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Qlue Smart City  Cart/path'. Try using Self-healing.
+
+2022-02-11 23:19:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Qlue Smart City  Cart/path' was broken. Propose an alternative one: 'div.styles__WrapperTrashIcon-sc-2i042w-12.dWuEzd > svg > path'.
+
+2022-02-11 23:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/path' is clicked on
+
+2022-02-11 23:19:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5_6_7")): Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5_6_7' is clicked on
+
+2022-02-11 23:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5_6_7' is clicked on
+
+2022-02-11 23:19:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Cart/p_Custom Plan"), 0): Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 23:19:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Cart/p_Custom Plan' is present
+
+2022-02-11 23:19:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Cart/svg")): Object: 'Object Repository/Page_Qlue Smart City  Cart/svg' is clicked on
+
+2022-02-11 23:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Cart/svg' is clicked on
+
+2022-02-11 23:19:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 23:19:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 23:15:53 - [TEST_SUITE][PASSED] - Pricing_Page: Test Cases/Pricing/show_Custom]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

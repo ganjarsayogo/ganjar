@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Collection1" time="88.894" tests="3" failures="0" errors="0">
+   <testsuite name="Register_Success" tests="3" failures="0" errors="0" time="71.605" skipped="0" timestamp="2022-02-11 19:45:57" hostname="user - DESKTOP-HVUGG9G" id="Test Suites/Register_Success">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\My First Web UI Project\\Reports\\20220211_194540\\Register_Success\\20220211_194542"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\My First Web UI Project\\Reports\\20220211_194540\\Register_Success\\20220211_194542\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\My First Web UI Project\\Reports\\20220211_194540\\Register_Success\\20220211_194542\\1644583580509.png"/>
+         <property name="hostName" value="user - DESKTOP-HVUGG9G"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.43.53"/>
+         <property name="sessionId" value="7d28dbba08cd5c2e217fbac266989036"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register_TestCase/Success Reg" time="30.894" classname="Test Cases/Register_TestCase/Success Reg" status="PASSED">
+         <system-out><![CDATA[2022-02-11 19:45:57 - [TEST_CASE][PASSED] - Test Cases/Register_TestCase/Success Reg: Test Cases/Register_TestCase/Success Reg
+
+2022-02-11 19:45:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 19:45:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 19:45:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 19:46:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 19:46:03 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.qlue.ai/register/"): Navigate to 'https://dev.qlue.ai/register/' successfully
+
+2022-02-11 19:46:09 - [MESSAGE][PASSED] - Navigate to 'https://dev.qlue.ai/register/' successfully
+
+2022-02-11 19:46:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name"), "Ganjar"): Text 'Ganjar' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name'
+
+2022-02-11 19:46:11 - [MESSAGE][PASSED] - Text 'Ganjar' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name'
+
+2022-02-11 19:46:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email"), "ganjar7.sayogo@gmail.com"): Text 'ganjar7.sayogo@gmail.com' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email'
+
+2022-02-11 19:46:12 - [MESSAGE][PASSED] - Text 'ganjar7.sayogo@gmail.com' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email'
+
+2022-02-11 19:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company"), "PT. ABC"): Text 'PT. ABC' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company'
+
+2022-02-11 19:46:13 - [MESSAGE][PASSED] - Text 'PT. ABC' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company'
+
+2022-02-11 19:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down")): Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down' is clicked on
+
+2022-02-11 19:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down' is clicked on
+
+2022-02-11 19:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia")): Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia' is clicked on
+
+2022-02-11 19:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia' is clicked on
+
+2022-02-11 19:46:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone"), "81345755941"): Text '81345755941' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone'
+
+2022-02-11 19:46:18 - [MESSAGE][PASSED] - Text '81345755941' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone'
+
+2022-02-11 19:46:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 19:46:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 19:46:20 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-02-11 19:46:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-11 19:46:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\My First Web UI Project\\Reports\\20220211_194540\\Register_Success\\20220211_194542\\1644583580509.png]]
+
+2022-02-11 19:46:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW")): Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW' is clicked on
+
+2022-02-11 19:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW' is clicked on
+
+2022-02-11 19:46:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Register Free Trial/h1_THANK YOU"), 0): Object 'Object Repository/Page_Qlue Smart City  Register Free Trial/h1_THANK YOU' is present
+
+2022-02-11 19:46:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 19:46:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Register Free Trial/h1_THANK YOU' is present
+
+2022-02-11 19:46:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 19:46:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register_TestCase/Success Reg_Company filled with Number" time="18.848" classname="Test Cases/Register_TestCase/Success Reg_Company filled with Number" status="PASSED">
+         <system-out><![CDATA[2022-02-11 19:46:28 - [TEST_CASE][PASSED] - Test Cases/Register_TestCase/Success Reg_Company filled with Number: Test Cases/Register_TestCase/Success Reg_Company filled with Number
+
+2022-02-11 19:46:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 19:46:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 19:46:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 19:46:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 19:46:30 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.qlue.ai/register/"): Navigate to 'https://dev.qlue.ai/register/' successfully
+
+2022-02-11 19:46:35 - [MESSAGE][PASSED] - Navigate to 'https://dev.qlue.ai/register/' successfully
+
+2022-02-11 19:46:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name"), "Ganjar"): Text 'Ganjar' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name'
+
+2022-02-11 19:46:36 - [MESSAGE][PASSED] - Text 'Ganjar' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name'
+
+2022-02-11 19:46:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email"), "ganjar8.sayogo@gmail.com"): Text 'ganjar8.sayogo@gmail.com' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email'
+
+2022-02-11 19:46:37 - [MESSAGE][PASSED] - Text 'ganjar8.sayogo@gmail.com' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email'
+
+2022-02-11 19:46:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company"), "1234"): Text '1234' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company'
+
+2022-02-11 19:46:38 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company'
+
+2022-02-11 19:46:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down")): Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down' is clicked on
+
+2022-02-11 19:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down' is clicked on
+
+2022-02-11 19:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia")): Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia' is clicked on
+
+2022-02-11 19:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia' is clicked on
+
+2022-02-11 19:46:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone"), "81345755941"): Text '81345755941' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone'
+
+2022-02-11 19:46:43 - [MESSAGE][PASSED] - Text '81345755941' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone'
+
+2022-02-11 19:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW")): Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW' is clicked on
+
+2022-02-11 19:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW' is clicked on
+
+2022-02-11 19:46:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Register Free Trial/h1_THANK YOU"), 0): Object 'Object Repository/Page_Qlue Smart City  Register Free Trial/h1_THANK YOU' is present
+
+2022-02-11 19:46:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 19:46:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Register Free Trial/h1_THANK YOU' is present
+
+2022-02-11 19:46:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 19:46:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register_TestCase/Success Reg_Name filled with Number" time="21.118" classname="Test Cases/Register_TestCase/Success Reg_Name filled with Number" status="PASSED">
+         <system-out><![CDATA[2022-02-11 19:46:47 - [TEST_CASE][PASSED] - Test Cases/Register_TestCase/Success Reg_Name filled with Number: Test Cases/Register_TestCase/Success Reg_Name filled with Number
+
+2022-02-11 19:46:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 19:46:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 19:46:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 19:46:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 19:46:49 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.qlue.ai/register/"): Navigate to 'https://dev.qlue.ai/register/' successfully
+
+2022-02-11 19:46:56 - [MESSAGE][PASSED] - Navigate to 'https://dev.qlue.ai/register/' successfully
+
+2022-02-11 19:46:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name"), "1234"): Text '1234' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name'
+
+2022-02-11 19:46:57 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name'
+
+2022-02-11 19:46:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email"), "ganjar9.sayogo@gmail.com"): Text 'ganjar9.sayogo@gmail.com' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email'
+
+2022-02-11 19:46:58 - [MESSAGE][PASSED] - Text 'ganjar9.sayogo@gmail.com' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email'
+
+2022-02-11 19:46:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company"), "PT. ABC"): Text 'PT. ABC' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company'
+
+2022-02-11 19:46:59 - [MESSAGE][PASSED] - Text 'PT. ABC' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company'
+
+2022-02-11 19:46:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down")): Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down' is clicked on
+
+2022-02-11 19:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down' is clicked on
+
+2022-02-11 19:47:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia")): Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia' is clicked on
+
+2022-02-11 19:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia' is clicked on
+
+2022-02-11 19:47:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone"), "81345755941"): Text '81345755941' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone'
+
+2022-02-11 19:47:04 - [MESSAGE][PASSED] - Text '81345755941' is set on object 'Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone'
+
+2022-02-11 19:47:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW")): Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW' is clicked on
+
+2022-02-11 19:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW' is clicked on
+
+2022-02-11 19:47:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Qlue Smart City  Register Free Trial/h1_THANK YOU"), 0): Object 'Object Repository/Page_Qlue Smart City  Register Free Trial/h1_THANK YOU' is present
+
+2022-02-11 19:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-11 19:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Qlue Smart City  Register Free Trial/h1_THANK YOU' is present
+
+2022-02-11 19:47:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-11 19:47:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 19:45:57 - [TEST_SUITE][PASSED] - Register_Success: Test Cases/Register_TestCase/Success Reg_Name filled with Number]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

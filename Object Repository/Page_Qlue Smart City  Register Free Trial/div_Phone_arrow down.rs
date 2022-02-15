@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Phone_arrow down</name>
+   <tag></tag>
+   <elementGuidId>6e3c1e75-1ec0-4066-89c1-ff099b756803</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gatsby-focus-wrapper']/main/div/div[2]/form/div/div[7]/div/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.arrow.down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>arrow down</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/main[1]/div[@class=&quot;styles__Container-e1t52r-0 hHOKL&quot;]/div[@class=&quot;styles__RightContainer-e1t52r-5 bMOivS&quot;]/form[@class=&quot;style__FormRegister-jutyp6-0 hpDzEx&quot;]/div[@class=&quot;style__BoxRegister-jutyp6-1 ioEjpb&quot;]/div[@class=&quot;style__Container-sc-17jtlsq-0 hIEfFD&quot;]/div[@class=&quot;allow-dropdown separate-dial-code iti-sdc-2 intl-tel-input&quot;]/div[@class=&quot;flag-container&quot;]/div[@class=&quot;selected-flag&quot;]/div[@class=&quot;arrow down&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gatsby-focus-wrapper']/main/div/div[2]/form/div/div[7]/div/div/div/div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/div[3]</value>
+   </webElementXpaths>
+</WebElementEntity>

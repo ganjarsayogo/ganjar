@@ -1,0 +1,175 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register_Failed,Chrome 98.0.4758.82,,,2022-02-11 20:32:41,2022-02-11 20:37:08,4m - 27.586s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Name left blank,Chrome 98.0.4758.82,,,2022-02-11 20:32:41,2022-02-11 20:33:05,23.446s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:32:42,2022-02-11 20:32:47,4.432s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:32:47,2022-02-11 20:32:51,4.442s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), """")",Chrome 98.0.4758.82,,,2022-02-11 20:32:51,2022-02-11 20:32:53,2.037s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjar.sayog1@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:32:53,2022-02-11 20:32:54,1.303s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:32:54,2022-02-11 20:32:55,0.945s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:32:55,2022-02-11 20:32:58,3.178s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:32:58,2022-02-11 20:33:01,2.954s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""81345755941"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:01,2022-02-11 20:33:02,1.010s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:33:02,2022-02-11 20:33:03,0.533s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Please enter Your name""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:33:03,2022-02-11 20:33:04,0.864s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:33:04,2022-02-11 20:33:05,0.857s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Name with 3 char,Chrome 98.0.4758.82,,,2022-02-11 20:33:05,2022-02-11 20:33:26,21.025s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:33:05,2022-02-11 20:33:07,1.669s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:07,2022-02-11 20:33:13,6.410s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Gan"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:13,2022-02-11 20:33:15,1.293s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjar.sayog3@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:15,2022-02-11 20:33:16,1.034s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:16,2022-02-11 20:33:17,0.959s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:33:17,2022-02-11 20:33:20,2.993s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:33:20,2022-02-11 20:33:22,2.870s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""81345755941"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:22,2022-02-11 20:33:23,0.996s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:33:23,2022-02-11 20:33:24,0.620s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Character minimal 4 and maximal 50""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:33:24,2022-02-11 20:33:25,0.736s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:33:25,2022-02-11 20:33:26,0.854s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Name with 51 char,Chrome 98.0.4758.82,,,2022-02-11 20:33:26,2022-02-11 20:33:47,21.323s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:33:26,2022-02-11 20:33:28,1.744s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:28,2022-02-11 20:33:34,5.968s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""GanjarGanjarGanjarGanjarGanjarGanjarGanjarGanjarGan"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:34,2022-02-11 20:33:36,1.802s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjar.sayog4@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:36,2022-02-11 20:33:37,0.999s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:37,2022-02-11 20:33:38,0.893s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:33:38,2022-02-11 20:33:41,3.060s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:33:41,2022-02-11 20:33:44,2.965s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""81345755941"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:44,2022-02-11 20:33:45,0.991s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:33:45,2022-02-11 20:33:45,0.597s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Character minimal 4 and maximal 50""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:33:45,2022-02-11 20:33:46,0.802s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:33:46,2022-02-11 20:33:47,0.891s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Name with symbols,Chrome 98.0.4758.82,,,2022-02-11 20:33:47,2022-02-11 20:34:06,18.883s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:33:48,2022-02-11 20:33:49,1.637s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:49,2022-02-11 20:33:55,5.826s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""@@@@@"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:55,2022-02-11 20:33:57,1.477s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjar.sayog2@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:57,2022-02-11 20:33:58,1.088s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:33:58,2022-02-11 20:33:59,0.908s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:33:59,2022-02-11 20:34:00,0.905s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:34:00,2022-02-11 20:34:02,2.823s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""81345755941"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:02,2022-02-11 20:34:03,1.015s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:34:03,2022-02-11 20:34:04,0.556s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Name only allow alphanumeric characters""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:34:04,2022-02-11 20:34:05,1.082s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:34:05,2022-02-11 20:34:06,0.849s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Email already registered,Chrome 98.0.4758.82,,,2022-02-11 20:34:06,2022-02-11 20:34:25,19.044s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:34:06,2022-02-11 20:34:08,1.694s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:08,2022-02-11 20:34:14,5.973s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:14,2022-02-11 20:34:16,1.476s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjar.sayogo@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:16,2022-02-11 20:34:17,1.010s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:17,2022-02-11 20:34:18,0.895s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:34:18,2022-02-11 20:34:18,0.878s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:34:18,2022-02-11 20:34:21,2.965s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""81345755941"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:21,2022-02-11 20:34:22,1.043s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:34:22,2022-02-11 20:34:23,0.521s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Email already registered""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:34:23,2022-02-11 20:34:24,1.119s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:34:24,2022-02-11 20:34:25,0.867s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Email left blank,Chrome 98.0.4758.82,,,2022-02-11 20:34:25,2022-02-11 20:34:45,19.997s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:34:26,2022-02-11 20:34:27,1.588s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:27,2022-02-11 20:34:32,5.052s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:32,2022-02-11 20:34:34,1.658s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), """")",Chrome 98.0.4758.82,,,2022-02-11 20:34:34,2022-02-11 20:34:35,0.871s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:35,2022-02-11 20:34:36,1.051s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:34:36,2022-02-11 20:34:39,3.086s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:34:39,2022-02-11 20:34:42,2.903s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""81345755941"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:42,2022-02-11 20:34:43,0.954s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:34:43,2022-02-11 20:34:43,0.596s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Please enter Your email""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:34:43,2022-02-11 20:34:44,0.771s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:34:44,2022-02-11 20:34:45,0.862s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Invalid email format,Chrome 98.0.4758.82,,,2022-02-11 20:34:45,2022-02-11 20:35:06,21.172s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:34:46,2022-02-11 20:34:47,1.565s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:47,2022-02-11 20:34:54,6.668s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:54,2022-02-11 20:34:55,1.019s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjarsayog5gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:55,2022-02-11 20:34:56,1.317s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:34:56,2022-02-11 20:34:57,0.844s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:34:57,2022-02-11 20:35:00,3.041s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:35:00,2022-02-11 20:35:03,2.886s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""81345755941"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:03,2022-02-11 20:35:04,0.950s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:35:04,2022-02-11 20:35:04,0.563s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_your email is not valid""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:35:04,2022-02-11 20:35:05,0.855s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:35:05,2022-02-11 20:35:06,0.848s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Company left blank,Chrome 98.0.4758.82,,,2022-02-11 20:35:06,2022-02-11 20:35:23,16.458s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:35:07,2022-02-11 20:35:08,1.618s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:08,2022-02-11 20:35:15,6.170s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:15,2022-02-11 20:35:16,1.530s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjarsayog5@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:16,2022-02-11 20:35:17,1.069s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), """")",Chrome 98.0.4758.82,,,2022-02-11 20:35:17,2022-02-11 20:35:18,0.858s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:35:18,2022-02-11 20:35:21,2.723s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Please enter Your company""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:35:21,2022-02-11 20:35:22,0.822s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:35:22,2022-02-11 20:35:23,1.039s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Company with 2 char,Chrome 98.0.4758.82,,,2022-02-11 20:35:23,2022-02-11 20:35:38,15.802s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:35:23,2022-02-11 20:35:25,1.632s,PASSED
+"navigateToUrl(""https://d11602ph6cbhrk.cloudfront.net/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:25,2022-02-11 20:35:30,5.377s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:30,2022-02-11 20:35:32,1.732s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjarsayog7@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:32,2022-02-11 20:35:33,0.975s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""AA"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:33,2022-02-11 20:35:34,0.792s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:35:34,2022-02-11 20:35:36,2.665s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Character minimal 3 and maximal 50""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:35:36,2022-02-11 20:35:37,0.844s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:35:37,2022-02-11 20:35:38,1.217s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Company with 51 char,Chrome 98.0.4758.82,,,2022-02-11 20:35:38,2022-02-11 20:35:54,16.077s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:35:39,2022-02-11 20:35:41,1.661s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:41,2022-02-11 20:35:47,5.796s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:47,2022-02-11 20:35:48,1.199s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjarsayog8@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:48,2022-02-11 20:35:49,1.043s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""GanjarGanjarGanjarGanjarGanjarGanjarGanjarGanjarGan"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:49,2022-02-11 20:35:50,1.195s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:35:50,2022-02-11 20:35:53,2.712s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Character minimal 3 and maximal 50""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:35:53,2022-02-11 20:35:54,0.835s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:35:54,2022-02-11 20:35:54,0.872s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Company with symbols,Chrome 98.0.4758.82,,,2022-02-11 20:35:54,2022-02-11 20:36:12,17.583s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:35:55,2022-02-11 20:35:57,1.587s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:35:57,2022-02-11 20:36:01,4.083s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:01,2022-02-11 20:36:03,2.347s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjarsayog6@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:03,2022-02-11 20:36:04,1.006s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""@@@@"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:04,2022-02-11 20:36:05,0.848s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:36:05,2022-02-11 20:36:06,0.911s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:36:06,2022-02-11 20:36:09,2.887s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""81345755941"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:09,2022-02-11 20:36:10,0.981s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:36:10,2022-02-11 20:36:10,0.566s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Company only allow alphanumeric characters""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:36:10,2022-02-11 20:36:11,0.922s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:36:11,2022-02-11 20:36:12,0.847s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Phone number left blank,Chrome 98.0.4758.82,,,2022-02-11 20:36:12,2022-02-11 20:36:29,16.876s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:36:13,2022-02-11 20:36:14,1.569s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:14,2022-02-11 20:36:20,5.237s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:20,2022-02-11 20:36:21,1.146s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjarsayog9@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:21,2022-02-11 20:36:22,0.945s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:22,2022-02-11 20:36:22,0.838s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:36:22,2022-02-11 20:36:23,0.890s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:36:23,2022-02-11 20:36:26,2.885s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), """")",Chrome 98.0.4758.82,,,2022-02-11 20:36:26,2022-02-11 20:36:27,0.824s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:36:27,2022-02-11 20:36:28,0.550s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Please enter Your phone""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:36:28,2022-02-11 20:36:28,0.503s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:36:28,2022-02-11 20:36:29,0.855s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Phone number with 15 digits,Chrome 98.0.4758.82,,,2022-02-11 20:36:29,2022-02-11 20:36:49,20.025s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:36:30,2022-02-11 20:36:31,1.569s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:31,2022-02-11 20:36:39,7.544s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:39,2022-02-11 20:36:40,1.263s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjarsayo11@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:40,2022-02-11 20:36:41,1.024s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:41,2022-02-11 20:36:42,0.918s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:36:42,2022-02-11 20:36:43,0.925s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:36:43,2022-02-11 20:36:46,2.848s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""813458134581345"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:46,2022-02-11 20:36:47,0.981s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:36:47,2022-02-11 20:36:47,0.557s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Digit minimal 4 and maximal 14""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:36:47,2022-02-11 20:36:48,0.830s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:36:48,2022-02-11 20:36:49,0.984s,PASSED
+,,,,,,,
+Test Cases/Register_TestCase/Failed Reg_Phone number with 3 digits,Chrome 98.0.4758.82,,,2022-02-11 20:36:49,2022-02-11 20:37:08,18.889s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 20:36:50,2022-02-11 20:36:51,1.548s,PASSED
+"navigateToUrl(""https://dev.qlue.ai/register/"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:51,2022-02-11 20:36:59,7.390s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Name_name""), ""Ganjar"")",Chrome 98.0.4758.82,,,2022-02-11 20:36:59,2022-02-11 20:37:00,1.280s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Email_email""), ""ganjarsayo10@gmail.com"")",Chrome 98.0.4758.82,,,2022-02-11 20:37:00,2022-02-11 20:37:01,0.944s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_Company_company""), ""PT. ABC"")",Chrome 98.0.4758.82,,,2022-02-11 20:37:01,2022-02-11 20:37:02,0.826s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/div_Phone_arrow down""))",Chrome 98.0.4758.82,,,2022-02-11 20:37:02,2022-02-11 20:37:03,0.785s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/span_Indonesia""))",Chrome 98.0.4758.82,,,2022-02-11 20:37:03,2022-02-11 20:37:05,2.804s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/input_358_phone""), ""813"")",Chrome 98.0.4758.82,,,2022-02-11 20:37:05,2022-02-11 20:37:06,0.898s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Register Free Trial/button_GET STARTED NOW""))",Chrome 98.0.4758.82,,,2022-02-11 20:37:06,2022-02-11 20:37:07,0.505s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Register Free Trial/span_Digit minimal 4 and maximal 14""), 0)",Chrome 98.0.4758.82,,,2022-02-11 20:37:07,2022-02-11 20:37:07,0.502s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 20:37:07,2022-02-11 20:37:08,0.842s,PASSED

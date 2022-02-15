@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>958d033c-965f-4bb3-be24-8c4d234eaaac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles__WrapperTrashIcon-sc-2i042w-12.dWuEzd > svg > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#A3A3A3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>nonzero</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M5 15.833c0 .917.75 1.667 1.667 1.667h6.666c.917 0 1.667-.75 1.667-1.667v-10H5v10zm7.917-12.5l-.834-.833H7.917l-.834.833H4.167V5h11.666V3.333h-2.916z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gatsby-focus-wrapper&quot;)/main[1]/div[@class=&quot;styles__Wrapper-sc-2i042w-0 eaPYMB&quot;]/div[@class=&quot;styles__WrapperPlanSection-sc-2i042w-1 jkHcTK&quot;]/div[@class=&quot;styles__WrapperCard-sc-2i042w-3 hQPNKv&quot;]/div[@class=&quot;styles__Card-sc-2i042w-4 bFMejr&quot;]/div[@class=&quot;styles__Body-sc-2i042w-6 ftZCjI&quot;]/div[@class=&quot;styles__WrapperQtyButton-sc-2i042w-11 laPaWj&quot;]/div[@class=&quot;styles__WrapperTrashIcon-sc-2i042w-12 dWuEzd&quot;]/svg[1]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

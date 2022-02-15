@@ -1,0 +1,14 @@
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Name left blank","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Name left blank"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Name with 3 char","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Name with 3 char"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Name with 51 char","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Name with 51 char"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Name with symbols","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Name with symbols"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Email already registered","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Email already registered"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Email left blank","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Email left blank"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Invalid email format","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Invalid email format"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Company left blank","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Company left blank"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Company with 2 char","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Company with 2 char"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Company with 51 char","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Company with 51 char"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Company with symbols","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Company with symbols"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Phone number left blank","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Phone number left blank"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Phone number with 15 digits","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Phone number with 15 digits"}
+{"testCaseName":"Test Cases/Register_TestCase/Failed Reg_Phone number with 3 digits","testCaseId":"Test Cases/Register_TestCase/Failed Reg_Phone number with 3 digits"}

@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Login_TestCase/Success Login","testCaseId":"Test Cases/Login_TestCase/Success Login"}
+{"testCaseName":"Test Cases/Login_TestCase/Failed login_Email not registered","testCaseId":"Test Cases/Login_TestCase/Failed login_Email not registered"}
+{"testCaseName":"Test Cases/Login_TestCase/Failed login_Password turned uppercase","testCaseId":"Test Cases/Login_TestCase/Failed login_Password turned uppercase"}
+{"testCaseName":"Test Cases/Login_TestCase/Failed login_Password with added spaces","testCaseId":"Test Cases/Login_TestCase/Failed login_Password with added spaces"}
+{"testCaseName":"Test Cases/Login_TestCase/Failed login_Password with symbols","testCaseId":"Test Cases/Login_TestCase/Failed login_Password with symbols"}

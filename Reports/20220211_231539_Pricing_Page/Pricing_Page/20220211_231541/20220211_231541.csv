@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pricing_Page,Chrome 98.0.4758.82,,,2022-02-11 23:15:53,2022-02-11 23:19:40,3m - 47.021s,PASSED
+,,,,,,,
+Test Cases/Pricing/show_Office Space,Chrome 98.0.4758.82,,,2022-02-11 23:15:53,2022-02-11 23:16:07,13.977s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 23:15:54,2022-02-11 23:15:59,4.491s,PASSED
+"navigateToUrl(""https://d11602ph6cbhrk.cloudfront.net/pricing/"")",Chrome 98.0.4758.82,,,2022-02-11 23:15:59,2022-02-11 23:16:01,1.809s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED (1)""))",Chrome 98.0.4758.82,,,2022-02-11 23:16:01,2022-02-11 23:16:05,4.277s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/p_Office Space (1)""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:16:05,2022-02-11 23:16:06,1.288s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 23:16:06,2022-02-11 23:16:07,1.271s,PASSED
+,,,,,,,
+Test Cases/Pricing/show_Office Space_Not Sample and Custom,Chrome 98.0.4758.82,,,2022-02-11 23:16:07,2022-02-11 23:16:18,10.650s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 23:16:08,2022-02-11 23:16:10,1.619s,PASSED
+"navigateToUrl(""https://d11602ph6cbhrk.cloudfront.net/pricing/"")",Chrome 98.0.4758.82,,,2022-02-11 23:16:10,2022-02-11 23:16:11,1.209s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED (3)""))",Chrome 98.0.4758.82,,,2022-02-11 23:16:11,2022-02-11 23:16:15,4.014s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Qlue Smart City  Cart/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (1)""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:16:15,2022-02-11 23:16:16,1.263s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_Qlue Smart City  Cart/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (2)""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:16:16,2022-02-11 23:16:17,0.440s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 23:16:17,2022-02-11 23:16:18,1.230s,PASSED
+,,,,,,,
+Test Cases/Pricing/show_Sample Plan,Chrome 98.0.4758.82,,,2022-02-11 23:16:18,2022-02-11 23:16:28,10.260s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 23:16:19,2022-02-11 23:16:21,1.675s,PASSED
+"navigateToUrl(""https://d11602ph6cbhrk.cloudfront.net/pricing/"")",Chrome 98.0.4758.82,,,2022-02-11 23:16:21,2022-02-11 23:16:22,1.229s,PASSED
+"click(findTestObject(""Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/sample plan/button_GET STARTED""))",Chrome 98.0.4758.82,,,2022-02-11 23:16:22,2022-02-11 23:16:26,4.089s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_QlueDashboard/Page_QlueDashboard/Page_QlueDashboard/sample plan/p_Sample Plan""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:16:26,2022-02-11 23:16:27,1.216s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 23:16:27,2022-02-11 23:16:28,1.255s,PASSED
+,,,,,,,
+Test Cases/Pricing/show_Sample Plan_Not Office Space and Custom,Chrome 98.0.4758.82,,,2022-02-11 23:16:28,2022-02-11 23:16:39,10.565s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 23:16:29,2022-02-11 23:16:31,1.777s,PASSED
+"navigateToUrl(""https://d11602ph6cbhrk.cloudfront.net/pricing/"")",Chrome 98.0.4758.82,,,2022-02-11 23:16:31,2022-02-11 23:16:32,1.164s,PASSED
+"click(findTestObject(""Object Repository/button_GET STARTED""))",Chrome 98.0.4758.82,,,2022-02-11 23:16:32,2022-02-11 23:16:36,4.096s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:16:36,2022-02-11 23:16:37,1.099s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/input_LOGIN_styles__Input-sc-1jyk6yl-2 fRcUsy (2)""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:16:37,2022-02-11 23:16:38,0.417s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 23:16:38,2022-02-11 23:16:39,1.238s,PASSED
+,,,,,,,
+Test Cases/Pricing/show_Custom,Chrome 98.0.4758.82,,,2022-02-11 23:16:39,2022-02-11 23:19:40,3m - 0.933s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-11 23:16:40,2022-02-11 23:16:41,1.628s,PASSED
+"navigateToUrl(""https://d11602ph6cbhrk.cloudfront.net/pricing"")",Chrome 98.0.4758.82,,,2022-02-11 23:16:41,2022-02-11 23:16:43,1.278s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Pricing Plan/button_GET STARTED""))",Chrome 98.0.4758.82,,,2022-02-11 23:16:43,2022-02-11 23:16:47,4.102s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/button_ADD""))",Chrome 98.0.4758.82,,,2022-02-11 23:16:47,2022-02-11 23:16:48,1.216s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Cart/p_Custom Plan""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:16:48,2022-02-11 23:16:49,0.485s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/path""))",Chrome 98.0.4758.82,,,2022-02-11 23:16:49,2022-02-11 23:17:20,31.668s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/button_ADD_1""))",Chrome 98.0.4758.82,,,2022-02-11 23:17:20,2022-02-11 23:17:21,0.608s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Cart/p_Custom Plan""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:17:21,2022-02-11 23:17:21,0.518s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/path""))",Chrome 98.0.4758.82,,,2022-02-11 23:17:21,2022-02-11 23:17:53,31.512s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2""))",Chrome 98.0.4758.82,,,2022-02-11 23:17:53,2022-02-11 23:17:53,0.524s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Cart/p_Custom Plan""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:17:53,2022-02-11 23:17:54,0.494s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/svg""))",Chrome 98.0.4758.82,,,2022-02-11 23:17:54,2022-02-11 23:17:54,0.456s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3""))",Chrome 98.0.4758.82,,,2022-02-11 23:17:54,2022-02-11 23:17:57,2.583s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Cart/p_Custom Plan""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:17:57,2022-02-11 23:17:57,0.424s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/path""))",Chrome 98.0.4758.82,,,2022-02-11 23:17:57,2022-02-11 23:18:29,31.572s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4""))",Chrome 98.0.4758.82,,,2022-02-11 23:18:29,2022-02-11 23:18:29,0.541s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Cart/p_Custom Plan""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:18:29,2022-02-11 23:18:30,0.527s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/path""))",Chrome 98.0.4758.82,,,2022-02-11 23:18:30,2022-02-11 23:19:01,31.533s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5""))",Chrome 98.0.4758.82,,,2022-02-11 23:19:01,2022-02-11 23:19:02,0.521s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Cart/p_Custom Plan""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:19:02,2022-02-11 23:19:03,0.525s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/svg""))",Chrome 98.0.4758.82,,,2022-02-11 23:19:03,2022-02-11 23:19:03,0.432s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5_6""))",Chrome 98.0.4758.82,,,2022-02-11 23:19:03,2022-02-11 23:19:06,2.676s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Cart/p_Custom Plan""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:19:06,2022-02-11 23:19:06,0.465s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/path""))",Chrome 98.0.4758.82,,,2022-02-11 23:19:06,2022-02-11 23:19:38,31.600s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/button_ADD_1_2_3_4_5_6_7""))",Chrome 98.0.4758.82,,,2022-02-11 23:19:38,2022-02-11 23:19:38,0.510s,PASSED
+"verifyElementPresent(findTestObject(""Page_Qlue Smart City  Cart/p_Custom Plan""), 0)",Chrome 98.0.4758.82,,,2022-02-11 23:19:38,2022-02-11 23:19:39,0.439s,PASSED
+"click(findTestObject(""Object Repository/Page_Qlue Smart City  Cart/svg""))",Chrome 98.0.4758.82,,,2022-02-11 23:19:39,2022-02-11 23:19:39,0.422s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-11 23:19:39,2022-02-11 23:19:40,0.816s,PASSED
